@@ -6,7 +6,7 @@ This is my [emacs](https://www.gnu.org/software/emacs/) configuration.
 
 1. Install emacs.
 2. Back-up your existing config (if any): `$ cd $HOME; mv .emacs.d .emacs.d.bak`
-3. Install this repo: `$ cd $HOME; git clone https://github.com/ricky/emacs.d .emacs.d`
+3. Clone this repo: `$ cd $HOME; git clone --recursive https://github.com/ricky/emacs.d .emacs.d`
 4. Enjoy!
 
 ## Included Packages

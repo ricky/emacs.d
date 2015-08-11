@@ -1,0 +1,3 @@
+[submodule "revbufs"]
+	path = revbufs
+	url = https://github.com/capitaomorte/revbufs

@@ -1,5 +1,5 @@
 (require 'async-bytecomp)
-(load "~/.local/src/revbufs/revbufs.el")
+(load "~/.emacs.d/revbufs/revbufs.el")
 (load "~/.emacs.d/helm.el")
 (load "~/.emacs.d/modes.el")
 (load "~/.emacs.d/sql.el")
