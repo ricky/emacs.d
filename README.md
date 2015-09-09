@@ -34,11 +34,13 @@ This is my [emacs](https://www.gnu.org/software/emacs/) configuration.
 * less-css-mode
 * magit
 * mmm-mode
+* mmm-jinja2
 * moe-theme
 * org
 * org-ac
 * powerline
 * revbufs
+* salt-mode
 * sbt-mode
 * scala-mode
 * skewer-less

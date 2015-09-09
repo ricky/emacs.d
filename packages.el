@@ -20,8 +20,9 @@
     jinja2-mode
     js3-mode json-mode jsx-mode
     less-css-mode
-    mmm-mode
+    mmm-mode mmm-jinja2
     sbt-mode scala-mode
+    salt-mode
     skewer-mode skewer-less
     yaml-mode
     darcula-theme moe-theme solarized-theme

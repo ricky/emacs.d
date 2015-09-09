@@ -8,10 +8,6 @@
 (add-to-list 'auto-mode-alist '("\\.sql.jinja\\'" . sql-mode))
 (mmm-add-mode-ext-class 'sql-mode "\\.sql.jinja\\'" 'jinja2)
 
-;; Saltstack State Files
-(add-to-list 'auto-mode-alist '("\\.sls\\'" . yaml-mode))
-(mmm-add-mode-ext-class 'yaml-mode "\\.sls\\'" 'jinja2)
-
 ;; Scala
 (add-hook 'sbt-mode-hook '(lambda ()
   ;; compilation-skip-threshold tells the compilation minor-mode
