@@ -20,3 +20,4 @@
 
 
 (add-hook 'after-init-hook (lambda () (load "~/.emacs.d/after-init.el")))
+(add-hook 'after-init-hook #'global-flycheck-mode)

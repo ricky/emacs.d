@@ -70,3 +70,9 @@
 ;; ↦	8614	RIGHTWARDS ARROW FROM BAR
 ;; ⇥	8677	RIGHTWARDS ARROW TO BAR
 ;; ⇨	8680	RIGHTWARDS WHITE ARROW
+
+; misc
+(put 'set-goal-column 'disabled nil)
+(global-set-key [f5] 'call-last-kbd-macro)
+(global-set-key [f6] 'flycheck-mode)
+(editorconfig-mode t)
