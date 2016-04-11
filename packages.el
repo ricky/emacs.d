@@ -13,6 +13,7 @@
     helm helm-ag helm-aws helm-make helm-swoop
     editorconfig
     exec-path-from-shell
+    flycheck
     org org-ac
     magit gitconfig-mode gitignore-mode
     dockerfile-mode
