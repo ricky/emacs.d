@@ -10,7 +10,7 @@
 (defvar my-packages
   '(async
     auto-complete ac-helm
-    helm helm-ag helm-aws helm-make helm-swoop
+    helm helm-ag helm-aws helm-flycheck helm-make helm-swoop
     editorconfig
     exec-path-from-shell
     flycheck
