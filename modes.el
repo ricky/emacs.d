@@ -1,5 +1,9 @@
+;;; modes -- mode-specific customizations
+
+;;; Commentary:
 ;; Custom mode definitions and hooks
 
+;;; Code:
 ;; Multiple Major Modes
 (require 'mmm-auto)
 (setq mmm-global-mode 'maybe)
@@ -46,3 +50,21 @@
            "go build -v && go test -v && go vet"))
   ;; Godef jump key binding
   (local-set-key (kbd "M-.") 'godef-jump)))
+
+;; Flycheck
+; eslint
+(defun my/use-eslint-from-node-modules ()
+  "Find eslint in the project directory, if present."
+  (let* ((root (locate-dominating-file
+                (or (buffer-file-name) default-directory)
+                "node_modules"))
+         (eslint (and root
+                      (expand-file-name "node_modules/.bin/eslint"
+                                        root))))
+    (when (and eslint (file-executable-p eslint))
+      (setq-local flycheck-javascript-eslint-executable eslint))))
+
+(add-hook 'flycheck-mode-hook #'my/use-eslint-from-node-modules)
+
+(provide 'modes)
+;;; modes.el ends here
