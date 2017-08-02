@@ -1,4 +1,12 @@
+;;; init.el -- initialize emacs
+
+;;; Commentary:
+
+;;; Code:
 ;; Install Packages
+(package-initialize)
+(setq custom-file "~/.emacs.d/custom.el")
+(load custom-file)
 (load "~/.emacs.d/packages.el")
 
 ;; Show column number
@@ -21,3 +29,6 @@
 
 (add-hook 'after-init-hook (lambda () (load "~/.emacs.d/after-init.el")))
 (add-hook 'after-init-hook #'global-flycheck-mode)
+
+(provide 'init)
+;;; init.el ends here

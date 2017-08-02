@@ -37,14 +37,6 @@
 (electric-pair-mode)
 (setq show-paren-style 'mixed)
 
-; custom variables
-;; Your init file should contain only one such instance.
-;; If there is more than one, they won't work right.
-(custom-set-variables
-  '(inhibit-startup-screen t)
-  '(js3-indent-tabs-mode t)
-  '(js3-consistent-level-indent-inner-bracket t))
-
 ; Extra Shortcuts
 (global-set-key (kbd "<C-f9>") 'revbufs)
 

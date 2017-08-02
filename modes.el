@@ -51,6 +51,10 @@
   ;; Godef jump key binding
   (local-set-key (kbd "M-.") 'godef-jump)))
 
+;; Javascript
+; Treat `` like quotes for interpolated strings
+; (modify-syntax-entry ?` "\"" js-mode-syntax-table)
+
 ;; Flycheck
 ; eslint
 (defun my/use-eslint-from-node-modules ()
