@@ -1,4 +1,9 @@
+;;; mac.el -- MacOS config
+
+;;; Commentary:
 ;; Mac OS X environment setup
+
+;;; Code:
 (when (eq system-type 'darwin)
   ;; Ensure that delete key deletes forward
   (normal-erase-is-backspace-mode 1)
@@ -8,3 +13,4 @@
   (setq mac-option-modifier (quote (:ordinary meta :function alt :mouse alt)))
   ;; Initialize $PATH from environment
   (exec-path-from-shell-initialize))
+;;; mac.el ends here

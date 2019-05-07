@@ -1,19 +1,23 @@
+;;; sql.el -- configuration
+
+;;; Commentary:
 ;; SQL Mode tweaks
 
+;;; Code:
 ;; Add --port to postgres options
 (require 'sql)
 (add-to-list 'sql-postgres-login-params '(port :default 5432))
 
 ;; Add newline to output
 (defvar sql-last-prompt-pos 1
-  "position of last prompt when added recording started")
+  "Position of last prompt when added recording started.")
 (make-variable-buffer-local 'sql-last-prompt-pos)
 (put 'sql-last-prompt-pos 'permanent-local t)
  
 (defun sql-add-newline-first (output)
-  "Add newline to beginning of OUTPUT for `comint-preoutput-filter-functions'
-  This fixes up the display of queries sent to the inferior buffer
-  programatically."
+  "Add newline to beginning of OUTPUT for `comint-preoutput-filter-functions'.
+This fixes up the display of queries sent to the inferior buffer
+programatically."
   (let ((begin-of-prompt
          (or (and comint-last-prompt-overlay
                   ;; sometimes this overlay is not on prompt
@@ -34,3 +38,4 @@
             'sql-add-newline-first))
  
 (add-hook 'sql-interactive-mode-hook 'sqli-add-hooks)
+;;; sql.el ends here

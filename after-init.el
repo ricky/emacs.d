@@ -1,3 +1,9 @@
+;;; after-init.el -- config
+
+;;; Commentary:
+;; Post-initialization configuration
+
+;;; Code:
 (require 'async-bytecomp)
 (load "~/.emacs.d/revbufs/revbufs.el")
 (load "~/.emacs.d/helm.el")
@@ -69,3 +75,4 @@
 (global-set-key [f5] 'call-last-kbd-macro)
 (global-set-key [f6] 'flycheck-mode)
 (editorconfig-mode t)
+;;; after-init.el ends here
