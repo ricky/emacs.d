@@ -20,6 +20,7 @@ This is my [emacs](https://www.gnu.org/software/emacs/) configuration.
 * dockerfile-mode
 * editorconfig
 * editorconfig-custom-majormode
+* ensime
 * eshell-did-you-mean
 * eshell-git-prompt
 * eslint-fix
@@ -64,5 +65,4 @@ This is my [emacs](https://www.gnu.org/software/emacs/) configuration.
 * slack
 * solarized-theme
 * terraform-mode
-* weechat
 * yaml-mode
