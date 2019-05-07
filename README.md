@@ -34,7 +34,7 @@ This is my [emacs](https://www.gnu.org/software/emacs/) configuration.
 * go-mode
 * groovy-mode
 * helm
-* helm-ag
+* helm-rg
 * helm-flycheck
 * helm-fuzzier
 * helm-make
