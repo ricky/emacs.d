@@ -4,6 +4,7 @@
 (load "~/.emacs.d/modes.el")
 (load "~/.emacs.d/sql.el")
 (load "~/.emacs.d/mac.el")
+(load "~/.emacs.d/randomize-region.el")
 
 ; auto-complete
 (require 'auto-complete-config)
