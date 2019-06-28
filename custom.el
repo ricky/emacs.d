@@ -15,7 +15,7 @@
  '(js3-indent-tabs-mode t)
  '(package-selected-packages
    (quote
-    (ac-helm auto-complete auto-minor-mode csv-mode darcula-theme diffview diredful dockerfile-mode editorconfig editorconfig-custom-majormode ensime eshell-did-you-mean eshell-git-prompt eslint-fix exec-path-from-shell flycheck flymd gh-md gitconfig-mode gitignore-mode go-autocomplete go-mode groovy-mode helm helm-flycheck helm-fuzzier helm-make helm-rg helm-sql-connect helm-swoop jinja2-mode jq-mode js3-mode json-mode json-navigator jsx-mode less-css-mode magit markdown-mode mmm-jinja2 mmm-mode moe-theme org org-ac org-notebook powerline revbufs salt-mode sbt-mode scala-mode skewer-less skewer-mode slack solarized-theme terraform-mode yaml-mode))))
+    (ac-helm auto-complete auto-minor-mode browse-at-remote csv-mode darcula-theme diffview diredful dockerfile-mode editorconfig editorconfig-custom-majormode ensime eshell-did-you-mean eshell-git-prompt eslint-fix exec-path-from-shell flycheck flymd gh-md gitconfig-mode gitignore-mode go-autocomplete go-mode groovy-mode helm helm-flycheck helm-fuzzier helm-make helm-rg helm-sql-connect helm-swoop jinja2-mode jq-mode js3-mode json-mode json-navigator jsx-mode less-css-mode magit markdown-mode mmm-jinja2 mmm-mode moe-theme org org-ac org-notebook powerline revbufs salt-mode sbt-mode scala-mode skewer-less skewer-mode slack solarized-theme terraform-mode yaml-mode))))
 
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
