@@ -71,6 +71,9 @@
 ;; ⇥	8677	RIGHTWARDS ARROW TO BAR
 ;; ⇨	8680	RIGHTWARDS WHITE ARROW
 
+; Org Stuff
+(require 'ox-confluence)
+
 ; misc
 (put 'set-goal-column 'disabled nil)
 (global-set-key [f5] 'call-last-kbd-macro)

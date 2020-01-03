@@ -10,6 +10,7 @@
 	     '("melpa" . "http://melpa.milkbox.net/packages/") t)
 (add-to-list 'package-archives
              '("org" . "http://orgmode.org/elpa/") t)
+(add-to-list 'load-path "~/.emacs.d/lisp/")
 
 (defun my-packages-installed-p ()
   (loop for p in package-selected-packages
