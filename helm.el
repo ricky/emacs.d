@@ -12,6 +12,8 @@
 (global-set-key (kbd "M-y") 'helm-show-kill-ring)
 (global-set-key (kbd "C-x b") 'helm-mini)
 (global-set-key (kbd "C-x C-f") 'helm-find-files)
+; https://github.com/emacs-helm/helm/wiki/FAQ#arrow-keys-behavior-have-changed
+(customize-set-variable 'helm-ff-lynx-style-map t)
 
 ;; Use ack-grep on Ubuntu
 (when (executable-find "ack-grep")
