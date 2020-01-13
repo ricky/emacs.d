@@ -12,19 +12,7 @@
 (load "~/.emacs.d/sql.el")
 (load "~/.emacs.d/mac.el")
 (load "~/.emacs.d/randomize-region.el")
-
-; auto-complete
-(require 'auto-complete-config)
-(ac-config-default)
-(global-auto-complete-mode t)
-
-;; enable ac in other modes
-(dolist (mode '(magit-log-edit-mode log-edit-mode org-mode text-mode haml-mode
-                sass-mode yaml-mode csv-mode espresso-mode haskell-mode
-                html-mode nxml-mode sh-mode smarty-mode clojure-mode
-                lisp-mode textile-mode markdown-mode tuareg-mode
-                js3-mode css-mode less-css-mode))
-  (add-to-list 'ac-modes mode))
+(load "~/.emacs.d/code-completion.el")
 
 ; color theme
 (require 'powerline)

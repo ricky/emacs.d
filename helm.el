@@ -20,10 +20,11 @@
   (setq helm-grep-default-command "ack-grep -H --no-group --no-color %e %p %f"
         helm-grep-default-recurse-command "ack-grep -Hn --no-group --no-color %e %p %f"))
 
-;; auto-complete w/ helm
-(require 'ac-helm)
-(global-set-key (kbd "C-:") 'ac-complete-with-helm)
-(define-key ac-complete-mode-map (kbd "C-:") 'ac-complete-with-helm)
+;; auto-complete w/ company
+(eval-after-load 'company
+  '(progn
+     (define-key company-mode-map (kbd "C-:") 'helm-company)
+     (define-key company-active-map (kbd "C-:") 'helm-company)))
 
 ;; Swoop
 (require 'helm-swoop)

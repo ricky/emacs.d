@@ -11,9 +11,11 @@ This is my [emacs](https://www.gnu.org/software/emacs/) configuration.
 
 ## Included Packages
 
-* ac-helm
-* auto-complete
 * auto-minor-mode
+* company
+* company-ctags
+* company-fuzzy
+* company-shell
 * darcula-theme
 * diffview
 * diredful
@@ -34,6 +36,7 @@ This is my [emacs](https://www.gnu.org/software/emacs/) configuration.
 * go-mode
 * groovy-mode
 * helm
+* helm-company
 * helm-rg
 * helm-flycheck
 * helm-fuzzier
@@ -53,8 +56,8 @@ This is my [emacs](https://www.gnu.org/software/emacs/) configuration.
 * mmm-mode
 * moe-theme
 * org
-* org-ac
 * org-notebook
+* org-ox
 * powerline
 * revbufs
 * salt-mode
