@@ -8,6 +8,7 @@
 (load "~/.emacs.d/revbufs/revbufs.el")
 (load "~/.emacs.d/helm.el")
 (load "~/.emacs.d/modes.el")
+(load "~/.emacs.d/org.el")
 (load "~/.emacs.d/sql.el")
 (load "~/.emacs.d/mac.el")
 (load "~/.emacs.d/randomize-region.el")
@@ -70,9 +71,6 @@
 ;; ↦	8614	RIGHTWARDS ARROW FROM BAR
 ;; ⇥	8677	RIGHTWARDS ARROW TO BAR
 ;; ⇨	8680	RIGHTWARDS WHITE ARROW
-
-; Org Stuff
-(require 'ox-confluence)
 
 ; misc
 (put 'set-goal-column 'disabled nil)
