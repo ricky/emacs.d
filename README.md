@@ -16,6 +16,7 @@ This is my [emacs](https://www.gnu.org/software/emacs/) configuration.
 * company-ctags
 * company-fuzzy
 * company-shell
+* csharp-mode
 * darcula-theme
 * diffview
 * diredful
@@ -55,6 +56,7 @@ This is my [emacs](https://www.gnu.org/software/emacs/) configuration.
 * mmm-jinja2
 * mmm-mode
 * moe-theme
+* omnisharp
 * org
 * org-notebook
 * org-ox

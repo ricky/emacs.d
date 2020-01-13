@@ -12,6 +12,19 @@
 (add-to-list 'auto-mode-alist '("\\.sql.jinja\\'" . sql-mode))
 (mmm-add-mode-ext-class 'sql-mode "\\.sql.jinja\\'" 'jinja2)
 
+;; C#
+(add-hook 'csharp-mode-hook '(lambda ()
+  (omnisharp-mode)
+  (company-mode)
+  (flycheck-mode)
+
+  ;csharp-mode README.md recommends this too
+  (electric-pair-mode 1)       ;; Emacs 24
+  (electric-pair-local-mode 1) ;; Emacs 25
+
+  (local-set-key (kbd "C-c r r") 'omnisharp-run-code-action-refactoring)
+  (local-set-key (kbd "C-c C-c") 'recompile)))
+
 ;; Scala
 (add-hook 'sbt-mode-hook '(lambda ()
   ;; compilation-skip-threshold tells the compilation minor-mode
