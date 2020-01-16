@@ -5,7 +5,6 @@
 
 ;;; Code:
 (require 'async-bytecomp)
-(load "~/.emacs.d/revbufs/revbufs.el")
 (load "~/.emacs.d/sql.el")
 (load "~/.emacs.d/mac.el")
 (load "~/.emacs.d/randomize-region.el")
@@ -18,9 +17,6 @@
 (show-paren-mode t)
 (electric-pair-mode)
 (setq show-paren-style 'mixed)
-
-; Extra Shortcuts
-(global-set-key (kbd "<C-f9>") 'revbufs)
 
 ; whitespace mode
 (global-set-key (kbd "<f9>") 'whitespace-mode)
