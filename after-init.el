@@ -7,7 +7,6 @@
 (require 'async-bytecomp)
 (load "~/.emacs.d/sql.el")
 (load "~/.emacs.d/mac.el")
-(load "~/.emacs.d/randomize-region.el")
 
 ; uniquify buffer names
 (require 'uniquify)
