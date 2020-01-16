@@ -16,6 +16,7 @@ This is my [emacs](https://www.gnu.org/software/emacs/) configuration.
 * company-ctags
 * company-fuzzy
 * company-shell
+* copy-as-format
 * csharp-mode
 * darcula-theme
 * diffview
@@ -42,6 +43,7 @@ This is my [emacs](https://www.gnu.org/software/emacs/) configuration.
 * helm-flycheck
 * helm-fuzzier
 * helm-make
+* helm-projectile
 * helm-sql-connect
 * helm-swoop
 * jinja2-mode
@@ -61,6 +63,8 @@ This is my [emacs](https://www.gnu.org/software/emacs/) configuration.
 * org-notebook
 * org-ox
 * powerline
+* projectile
+* projectile-ripgrep
 * revbufs
 * salt-mode
 * sbt-mode
