@@ -1,9 +1,13 @@
 .cache
 ac-comphist.dat
 auto-save-list
+custom.el
 elpa
+emojis
 eshell
 recentf
+request
+transient
 tmp
 url
 var

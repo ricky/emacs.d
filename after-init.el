@@ -6,28 +6,13 @@
 ;;; Code:
 (require 'async-bytecomp)
 (load "~/.emacs.d/revbufs/revbufs.el")
-(load "~/.emacs.d/helm.el")
-(load "~/.emacs.d/modes.el")
-(load "~/.emacs.d/org.el")
 (load "~/.emacs.d/sql.el")
 (load "~/.emacs.d/mac.el")
 (load "~/.emacs.d/randomize-region.el")
-(load "~/.emacs.d/code-completion.el")
-
-; color theme
-(require 'powerline)
-(require 'moe-theme)
-(require 'moe-theme-switcher)
-(powerline-moe-theme)
 
 ; uniquify buffer names
 (require 'uniquify)
 (setq uniquify-buffer-name-style 'post-forward)
-
-; magit
-(setq magit-last-seen-setup-instructions "1.4.0")
-(global-set-key (kbd "C-c g") 'magit-status)
-(global-set-key (kbd "C-c b") 'browse-at-remote)
 
 ; pair mode
 (show-paren-mode t)
@@ -63,6 +48,4 @@
 ; misc
 (put 'set-goal-column 'disabled nil)
 (global-set-key [f5] 'call-last-kbd-macro)
-(global-set-key [f6] 'flycheck-mode)
-(editorconfig-mode t)
 ;;; after-init.el ends here
