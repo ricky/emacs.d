@@ -21,6 +21,9 @@
 (use-package ox-hugo
   :ensure t)
 
+(use-package ox-reveal
+  :ensure t)
+
 (use-package ox-rst
   :ensure t)
 

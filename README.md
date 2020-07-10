@@ -61,6 +61,7 @@ This is my [emacs](https://www.gnu.org/software/emacs/) configuration.
 * org
 * org-notebook
 * ox-hugo
+* ox-reveal
 * ox-rst
 * powerline
 * projectile
