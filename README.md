@@ -76,5 +76,6 @@ This is my [emacs](https://www.gnu.org/software/emacs/) configuration.
 * slack
 * solarized-theme
 * terraform-mode
+* typescript-mode
 * use-package
 * yaml-mode
