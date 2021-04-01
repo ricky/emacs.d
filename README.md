@@ -48,7 +48,7 @@ This is my [emacs](https://www.gnu.org/software/emacs/) configuration.
 * helm-swoop
 * jinja2-mode
 * jq-mode
-* js3-mode
+* js2-mode
 * json-mode
 * json-navigator
 * less-css-mode
@@ -67,7 +67,6 @@ This is my [emacs](https://www.gnu.org/software/emacs/) configuration.
 * projectile
 * projectile-ripgrep
 * revbufs
-* rjsx-mode
 * salt-mode
 * sbt-mode
 * scala-mode
