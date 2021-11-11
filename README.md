@@ -15,6 +15,7 @@ This is my [emacs](https://www.gnu.org/software/emacs/) configuration.
 * auto-minor-mode
 * bind-key
 * browse-at-remote
+* company
 * company-ctags
 * company-fuzzy
 * company-shell

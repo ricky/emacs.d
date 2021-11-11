@@ -14,11 +14,6 @@
   :commands lsp-ui-mode
   :ensure t)
 
-(use-package company-lsp
-  :commands company-lsp
-  :ensure t
-  :requires company)
-
 (use-package helm-lsp
   :commands helm-lsp-workspace-symbol
   :ensure t
