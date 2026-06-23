@@ -7,11 +7,13 @@
 (use-package moe-theme
   :after powerline
   :config
-  (use-package powerline :ensure t)
+  (require 'moe-theme-switcher)
+  (setq
+    ;; nil uses 6:00 AM & PM instead of local sunrise/sunset
+    moe-theme-switch-by-sunrise-and-sunset nil)
+  (moe-theme-switcher-mode 1)
   (powerline-moe-theme)
   :ensure t)
-
-(require 'moe-theme-switcher)
 
 (provide 'packages/themes)
 ;;; themes.el ends here
