@@ -4,8 +4,8 @@
 ;; Custom mode definitions and hooks
 
 ;;; Code:
-(require 'load-directory)
-(load-directory "~/.emacs.d/packages/modes")
+(require 'load-dir)
+(load-dir-one "~/.emacs.d/packages/modes")
 
 (provide 'modes)
 ;;; modes.el ends here

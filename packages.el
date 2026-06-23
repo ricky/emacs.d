@@ -36,8 +36,8 @@
   (add-to-list 'Info-directory-list
                "~/.emacs.d/site-lisp/use-package/"))
 
-(require 'load-directory)
-(load-directory "~/.emacs.d/packages")
+(require 'load-dir)
+(load-dir-one "~/.emacs.d/packages")
 
 (provide 'packages)
 ;;; packages.el ends here
