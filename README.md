@@ -34,8 +34,7 @@ This is my [emacs](https://www.gnu.org/software/emacs/) configuration.
 * flycheck
 * flymd
 * gh-md
-* gitconfig-mode
-* gitignore-mode
+* git-mode
 * go-mode
 * groovy-mode
 * helm
@@ -46,7 +45,6 @@ This is my [emacs](https://www.gnu.org/software/emacs/) configuration.
 * helm-projectile
 * helm-rg
 * helm-sql-connect
-* helm-swoop
 * jinja2-mode
 * jq-mode
 * js2-mode

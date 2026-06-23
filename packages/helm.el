@@ -28,30 +28,6 @@
      (define-key company-mode-map (kbd "C-:") 'helm-company)
      (define-key company-active-map (kbd "C-:") 'helm-company)))
 
-(use-package helm-swoop
-  :after helm
-  :bind (("C-c M-i" . helm-multi-swoop)
-	 ("C-x M-i" . helm-multi-swoop-all)
-	 ("M-s" . helm-swoop)
-	 ("M-S" . helm-swoop-back-to-last-point)
-	 :map isearch-mode-map
-	 ; When doing isearch, hand the word over to helm-swoop
-	 ("M-i" . helm-swoop-from-isearch)
-	 :map helm-swoop-map
-	 ; From helm-swoop to helm-multi-swoop-all
-	 ("M-i" . helm-multi-swoop-all-from-helm-swoop)
-	 ; Instead of helm-multi-swoop-all, you can also use helm-multi-swoop-current-mode
-	 ("M-m" . helm-multi-swoop-current-mode-from-helm-swoop)
-	 ; Move up and down like isearch
-	 ("C-r" . helm-previous-line)
-	 ("C-s" . helm-next-line)
-	 :map helm-multi-swoop-map
-	 ("C-r" . helm-previous-line)
-	 ("C-s" . helm-next-line))
-  :ensure t
-  :init
-  (bind-key "M-m" 'helm-swoop-from-isearch isearch-mode-map))
-
 (use-package helm-rg
   :after helm
   :ensure t
